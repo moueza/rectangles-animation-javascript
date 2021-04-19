@@ -19,6 +19,19 @@ executors:
       machine-executor:
         machine:
           image: ubuntu-1604-201903-01
+          
+          
+jobs:
+    build-with-docker:
+        executor: docker-executor
+        steps:
+            - buildy
+
+    build-with-machine:
+        executor: machine-executor
+        steps:
+            - buildy
+            
 # Orchestrate or schedule a set of jobs
 workflows:
   # Name the workflow "welcome"
