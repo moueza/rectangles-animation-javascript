@@ -11,6 +11,14 @@ commands:
                 - checkout
                 #https://circleci.com/docs/2.0/concepts/ :
                 - run: ls
+                
+executors:
+      docker-executor:
+          docker:
+              - image: circleci/openjdk:9.0.9-12
+      machine-executor:
+        machine:
+          image: ubuntu-1604-201903-01
 # Orchestrate or schedule a set of jobs
 workflows:
   # Name the workflow "welcome"
