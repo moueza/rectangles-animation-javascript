@@ -1,6 +1,7 @@
 (
 function(){
-console.log("in consol v13");
+  const vers=" v14";
+console.log("in consol"+vers);
   // jQuery methods go here...
 document.getElementById("div1").innerHTML = "Hello JavaScript!";
   
