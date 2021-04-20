@@ -40,7 +40,7 @@ workflows:
       - build-with-docker
   build-with-machine:
     jobs:
-      - build-with-machine
+      #- build-with-machine
   # Name the workflow "welcome"
   #welcome:
     # Run the welcome/run job in its own container
