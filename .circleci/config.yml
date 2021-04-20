@@ -39,7 +39,7 @@ workflows:
     jobs:
       - build-with-docker
   build-with-machine:
-    jobs:
+    #jobs:
       #- build-with-machine
   # Name the workflow "welcome"
   #welcome:
