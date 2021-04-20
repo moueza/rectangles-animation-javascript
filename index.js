@@ -2,5 +2,5 @@
 $(function(){
 console("in consol");
   // jQuery methods go here...
-document.getElementById("demo").innerHTML = "Hello JavaScript!";
+document.getElementById("div1").innerHTML = "Hello JavaScript!";
 });
