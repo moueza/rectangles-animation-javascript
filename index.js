@@ -11,7 +11,7 @@ function domloaded(){
     const ctx1 = canvas1.getContext("2d");
   
     ctx1.fillStyle = "green";
-    ctx1.fillRect(10, 10, 150, 100);
+    ctx1.fillRet(10, 10, 150, 100);//introdced error
   
   
     //canevas 3 :
