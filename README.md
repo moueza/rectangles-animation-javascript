@@ -1,1 +1,2 @@
 # rectangles-animation-javascript
+Rectangle
